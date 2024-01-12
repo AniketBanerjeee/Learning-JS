@@ -25,12 +25,46 @@ let changeToBoolean = Boolean(isGood)
 
 
 let num = 77
-console.log(typeof num);
-console.log(num)
+// console.log(typeof num);
+// console.log(num)
 
 
 let changeToString = String(num)
-console.log(typeof changeToString);
-console.log(changeToString);
+// console.log(typeof changeToString);
+// console.log(changeToString);
 
 // We can also change number to string it look same but the type will change to different.
+
+
+
+/****************************Operations*********************************/
+
+let str1 = "Hello"
+let str2 = " Aniket"
+
+let str3 = str1 + str2
+
+// console.log(str3);
+
+
+// console.log(1 + "3");
+// console.log(1 + 1 + "3");
+
+/* if you adding number with string it will behave like string and be written side by side like 1st one o/p 13
+now js is make operation left to right so for the 2nd one it will do 1st 1+1 = 2 then
+this will became the numvber with the string so it will be written side by side. */
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
+// x++ the increment operator increments and returns the value before incrementing.
+// ++x the increment operator increments and returns the value after incrementing.

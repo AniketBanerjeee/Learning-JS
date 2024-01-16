@@ -26,8 +26,8 @@ let createdDate = new Date("2024-02-15") // yyyy/mm/dd
 // it is the milisecond time from January 01, 1970.
 let timeStamp = Date.now()
 // times in milisecond
-// console.log(timeStamp);
-// console.log(createdDate.getTime());
+console.log(timeStamp);
+console.log(createdDate.getTime());
 
 // time in second
 console.log(Math.floor(Date.now() / 1000));
